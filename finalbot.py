@@ -17,9 +17,9 @@ from fuzzywuzzy import process
 try:
     
     
-    conn = sharepy.connect("https://jda365.sharepoint.com", username = "raguram.s@jda.com", password = "FerHomme43")    
+    conn = sharepy.connect("https://jda365.sharepoint.com", username = "user@email.com", password = "P@$$word")    
     
-    site = "https://jda365.sharepoint.com/sites/CategoryManagement/"    
+    site = "https://domain.sharepoint.com/sites/Pages/"    
     
     library = "Documents"    
     
@@ -214,7 +214,8 @@ try:
             exit('Error, Connection could not be established...!')
                 
     
-    slack_client = SlackClient('xoxb-579364393873-597438149168-pHJc50Vl8nX7sIleiptxSc87')
+    slack_client = SlackClient('Slack Client Authentication Token')
+# 	xoxb-579364393873-597438149168-pHJc50Vl8nX7sIleiptxSc87
     
     bot_name = 'jarvis'
     
